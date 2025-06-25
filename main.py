@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 
 # Load the model
-lung_cancer_model = pickle.load(open("lung cancer/lung_cancer.sav", 'rb'))
+lung_cancer_model = pickle.load(open("lung_cancer.sav", 'rb'))
 
 # Streamlit app title
 st.title("Lung Cancer Survival Prediction App")
